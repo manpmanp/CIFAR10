@@ -10,7 +10,8 @@ import os
 import argparse
 import numpy as np
 from utils import progress_bar, get_lr, recycle
-from efficientnet_pytorch import EfficientNet
+#from efficientnet_pytorch import EfficientNet
+import nvidia_efficientnet_b4
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
 parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
